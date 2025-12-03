@@ -85,7 +85,7 @@ portfolio/
    
    Create a `.env` file in the root directory:
    ```env
-   EMAIL_USER=your-email@gmail.com
+   EMAIL_USER=your-email@example.com
    EMAIL_PASS=your-app-specific-password
    ```
 
