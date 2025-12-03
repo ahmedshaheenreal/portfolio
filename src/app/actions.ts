@@ -43,7 +43,7 @@ export async function sendEmail(prevState: any, formData: FormData) {
             subject: `Portfolio Contact: ${subject}`,
             text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
             html: `
-        <h3>New Contact Form Submission</h3>
+        <h3>New Contact Form Submission - Personal Portfolio</h3>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Subject:</strong> ${subject}</p>
