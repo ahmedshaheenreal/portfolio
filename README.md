@@ -100,29 +100,6 @@ portfolio/
    
    Navigate to [http://localhost:3000](http://localhost:3000) to see your portfolio.
 
-## 📧 Email Configuration
-
-The contact form uses Nodemailer to send emails. To configure it:
-
-1. Update the `.env` file with your email credentials
-2. For Gmail users:
-   - Enable 2-factor authentication
-   - Generate an App Password
-   - Use the App Password in `EMAIL_PASS`
-3. For other email providers, update the SMTP configuration in `src/app/actions.ts`
-
-## 🎨 Customization
-
-### Personal Information
-
-Update the following files with your information:
-
-- **`src/components/Hero.tsx`**: Name, title, and description
-- **`src/components/About.tsx`**: Bio, education, and skills
-- **`src/components/Experience.tsx`**: Work experience details
-- **`src/components/Projects.tsx`**: Featured projects
-- **`src/components/Footer.tsx`**: Social media links
-
 ### Theme Colors
 
 Modify the color scheme in `src/app/globals.css`:
@@ -147,24 +124,9 @@ npm start
 
 ## 🚢 Deployment
 
-### Deploy on Vercel (Recommended)
+### Deployed on Netlify [Click here to see it](https://ahmedshaheenresume.netlify.app/)
 
-The easiest way to deploy your Next.js portfolio is using [Vercel](https://vercel.com):
 
-1. Push your code to GitHub
-2. Import your repository on [Vercel](https://vercel.com/new)
-3. Add your environment variables in the Vercel dashboard
-4. Deploy!
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/portfolio)
-
-### Other Platforms
-
-This portfolio can also be deployed on:
-- **Netlify**: Connect your GitHub repo and deploy
-- **AWS Amplify**: Use the Amplify console
-- **Railway**: Deploy with a single click
-- **DigitalOcean App Platform**: Connect and deploy
 
 ## 📄 License
 
@@ -179,9 +141,9 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 **Ahmed Shaheen**
 - Full Stack Developer
 - Bachelor's in Software Engineering, Üsküdar University
-- [GitHub](https://github.com/yourusername)
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-- [Email](mailto:your-email@example.com)
+- [GitHub](https://github.com/ahmedshaheenreal)
+- [LinkedIn](https://linkedin.com/in/real-ahmed-shaheen)
+- [Email](ahmedshaheenwork@gmail.com)
 
 ## 🙏 Acknowledgments
 
