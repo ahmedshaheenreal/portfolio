@@ -12,9 +12,9 @@ const navLinks = [
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    let classNames = " opacity-0 translate-y-3 pointer-events-none md:pointer-events-auto md:flex gap-8 transition-all duration-300  -z-10 ";
+    let classNames = " static opacity-0 md:opacity-100 translate-y-3 md:translate-y-0 pointer-events-none md:pointer-events-auto md:flex gap-8 transition-all duration-300  -z-10  align-center";
     if (isMenuOpen) {
-        classNames = "opacity-100 bg-black/80 translate-y-0 pointer-events-auto absolute top-[100%] left-0 right-0 z-50 flex flex-col gap-4 transition-all duration-300  py-8 text-center";
+        classNames = "opacity-100 bg-black/80 translate-y-0 pointer-events-auto absolute md:static top-[100%] left-0 right-0 z-50 flex flex-col gap-4 transition-all duration-300  py-8 text-center";
     }
     return (
         <motion.header
